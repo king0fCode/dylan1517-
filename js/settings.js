@@ -26,8 +26,8 @@ $(window).on('load', function () {
   let navBar = document.getElementById('navbarResponsive')
 
   // set home link path
-        
-  document.getElementById('homePage').href = `${RootPath}/${DirName}` 
+
+  document.getElementById('homePage').href = `${RootPath}/${DirName}`
   // end set home link path
 
   let nav = ` <ul class="navbar-nav ml-auto">
