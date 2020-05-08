@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <!--------------------------------------------------------------------------- 
                 index.html
                 Tip Calculator
@@ -23,130 +26,204 @@
 
 ------------------------------------------------------------------------------>
 
-
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- begin Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- end Bootstrap CSS -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-    <!-- begin custom CSS -->
-        <link rel="stylesheet" href="style.css" type="text/css"/>
-    <!-- end custom CSS -->
-
-    <!-- begin Google fonts - Roboto for copy, Montserrat for headings-->
-        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet"> 
-    <!-- end Google fonts -->
-
-    <!-- begin FontAwesome CSS-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!-- end FontAwesome CSS -->
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
     <title>Dylan Sherwood</title>
 </head>
-<body>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">[Project List] >></a><button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="./projects/emailValidator/">Email Validator</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="./projects/favthings/">FavThings</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="./projects/imperialCalculator/">imperial Cal</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="./projects/myschedule/">mySchedule</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="./projects/tipcal/">Tip Cal</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="./projects/todo/">To Do</a></li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Email Validator</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Simple program to validate Emails</p>
+        </div>
+    </header>
     <!-- begin boostrap structure -->
     <div class="container-fluid">
         <div class="row min-vh-100">
-          <div class="col-xl-5 col-lg-6 col-md-8 p-5 p-lg-4 mx-auto d-flex align-items-center">
-    <!-- end boostrap structure  -->
-            <div>
-                <!-- tip icon -->
-                <p> 
-                    <img src="https://cdn.onlinewebfonts.com/svg/img_452039.png" alt="Icon Logo" height=110>
-                </p>
-                <!-- tip icon -->
+            <div class="col-xl-5 col-lg-6 col-md-8 p-5 p-lg-4 mx-auto d-flex align-items-center">
+                <!-- end boostrap structure  -->
+                <div>
+                    <!-- tip icon -->
+                    <p>
+                        <img src="https://cdn.onlinewebfonts.com/svg/img_452039.png" alt="Icon Logo" height=110>
+                    </p>
+                    <!-- tip icon -->
 
-                <!-- begin calculator top text -->
+                    <!-- begin calculator top text -->
                     <h1 class="text-uppercase">Tip Calculator</h1>
                     <p class="lead">We calculate the tip so you don't have to.</p>
 
 
-<!-- Section 1 ************ -->
-<!-- ************ begin tip output section ************ -->
-<!-- ************************************************** -->                  
+                    <!-- Section 1 ************ -->
+                    <!-- ************ begin tip output section ************ -->
+                    <!-- ************************************************** -->
                     <p class="display-4" id="tipAmount"></p>
-<!-- ************************************************** -->
-<!-- ************* end tip output section ************* -->
-<!-- ************ Section 1  -->
+                    <!-- ************************************************** -->
+                    <!-- ************* end tip output section ************* -->
+                    <!-- ************ Section 1  -->
 
-                <!-- end calculator top text -->
+                    <!-- end calculator top text -->
 
-<!-- Section 2 ************ -->
-<!-- ************ begin user input section ************ -->
-<!-- ************************************************** -->
-                <form>
-                    <div class="form-row">
-                    <div class="col">
-                <!-- input groups in Bootstrap are used for a form section and any directly related images or page elements -->
-                <div class="input-group input-group-lg">
+                    <!-- Section 2 ************ -->
+                    <!-- ************ begin user input section ************ -->
+                    <!-- ************************************************** -->
+                    <form>
+                        <div class="form-row">
+                            <div class="col">
+                                <!-- input groups in Bootstrap are used for a form section and any directly related images or page elements -->
+                                <div class="input-group input-group-lg">
 
-                <!-- begin user input fields -->
-                    <!-- begin dollar sign -->
-                        <div class="input-group-prepend">
-                            <span class="input-group-text" id="basic-addon1">$</span>
-                        </div>                        
-                     <!-- end dollar sign -->
+                                    <!-- begin user input fields -->
+                                    <!-- begin dollar sign -->
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">$</span>
+                                    </div>
+                                    <!-- end dollar sign -->
 
-                     <!-- begin user input box -->                        
-                     <input type="number" value="100" id="dollarAmount" class="form-control"/>
-                     <!-- end user input box -->
-                    
-                    
-                     
-                        <!-- begin percent sign -->
-                    
-                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">%</span>
-                    </div>
-                        <!-- end percent sign -->
-                    
-                    <!-- begin user input box -->
-                     <input type="number" value="20" id="tipPercent" class="form-control"/>                    
-                    <!-- end user input box -->
-                <!-- end user input fields  -->
+                                    <!-- begin user input box -->
+                                    <input type="number" value="100" id="dollarAmount" class="form-control" />
+                                    <!-- end user input box -->
+
+
+
+                                    <!-- begin percent sign -->
+
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">%</span>
+                                    </div>
+                                    <!-- end percent sign -->
+
+                                    <!-- begin user input box -->
+                                    <input type="number" value="20" id="tipPercent" class="form-control" />
+                                    <!-- end user input box -->
+                                    <!-- end user input fields  -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- begin Calculate Tip button    -->
+                        <!-- this button is referencing a calcTip function in a JavaScript file -->
+                        <button type="button" onclick="calcTip(); changeText();"
+                            class="btn btn-outline-success">Calculate Tip</button>
+
+                        <!-- end Calculate Tip button -->
+                    </form>
+                    <!-- ************************************************** -->
+                    <!-- ************* end user input section ************* -->
+                    <!--************  Section 2 -->
+
                 </div>
             </div>
-            </div>
 
-                    <!-- begin Calculate Tip button    -->
-                        <!-- this button is referencing a calcTip function in a JavaScript file -->                       
-                        <button type="button" onclick="calcTip(); changeText();" class="btn btn-outline-success">Calculate Tip</button>
+            <div id="right_side" class="col-xl-6 col-lg-5 col-md-4 intro-right"></div>
 
-                    <!-- end Calculate Tip button -->
-                </form>
-<!-- ************************************************** -->
-<!-- ************* end user input section ************* -->
-<!--************  Section 2 -->
-
-            </div>
-          </div>
-          
-          <div id="right_side" class="col-xl-6 col-lg-5 col-md-4 intro-right" ></div>
-         
         </div>
-      </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">2215 John Daniel Drive<br />Clark, MO 65243</p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#"><i
+                            class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1"
+                        href="#"><i class="fab fa-fw fa-twitter"></i></a><a
+                        class="btn btn-outline-light btn-social mx-1" href="#"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1"
+                        href="#"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">About Dylan</h4>
+                    <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by <a
+                            href="http://startbootstrap.com">Design by dylan1517 </a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <section class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright © dylan1517 2020</small></div>
+    </section>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+</body>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+<!-- Third party plugin JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!-- Contact form JS-->
+<script src="assets/mail/jqBootstrapValidation.js"></script>
+<script src="assets/mail/contact_me.js"></script>
 <!-- Section 3 ************ -->
 <!-- ************ begin Javascript file reference ************ -->
 <!-- ********************************************************* -->
-    <script src="tipCalc.js"></script>
+<script src="tipCalc.js"></script>
 <!-- ********************************************************* -->
 <!-- ************* end Javascript file reference ************* -->
 <!-- ************ Section 3  -->
-
-    <!-- Begin Bootstrap JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <!-- End Bootstrap JavaScript -->
-</body>
-
-
-
 <!-- 
 For homework, complete the following
 ------------------------------------
@@ -154,6 +231,7 @@ For homework, complete the following
 2. Change the "lead" text once the tip has been calculated
 3. Change the text that displays in the "tipAmount" section based on the size of the dollar amount
 -->
+
 </html>
 
 
