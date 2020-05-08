@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title for our page -->
+    <title>Dylan Sherwood</title>
+    <!-- inline CSS -->
+    <style>
+        /* styles all "returnBox" divs */
+        .returnBox{
+            min-width: 16px;
+            height: 16px;
+            border: 1px solid black;
+            display:inline-flex;
+        }
+    </style>
+</head>
+<body onload="output()">
+        <h1>mySchedule</h1>
+    <hr/>
+    <h3>My Classes</h3>
+    <span id="classes"></span>
+
+    <hr/>
+
+    <h3>Graduating this year?</h3>
+     
+    
+    <div id="Graduating this year?" class="returnBox"></div>
+     <button onclick="getOutput();"id=gY>Well?</button>
+    <!-- Javascript src -->
+  <script src=mySchedule.js></script>  
+</body>
+</html>

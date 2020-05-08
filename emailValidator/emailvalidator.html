@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dylan Sherwood</title>
+</head>
+<body>
+    <h1>Welcome!</h1>
+    <div id="emailResultBox">  
+    <input type="text" id="fName" />
+    <input type="text" id="lName" />
+<!-- Create two text boxes for input -->
+<button onclick="assignEmail();">Give me an email address</button>
+<!-- Create a button to get an email value -->
+
+    </div>
+    <hr/>
+    <div id="emailValidBox">
+<input type="text" id="emailAddress" />
+<!-- define what to enter in this box -->
+<button onClick="checkEmail();">Validate My Email</button>
+<!-- confirm email meets requirments -->
+    </div>
+    <hr/>
+    <div id="humanCheckBox">
+
+        Human check: What is 5 times 6 minus 1? <input type="text" id="humanCheck" />
+        <button onclick="humanCheck()">Verify that I'm a human</button>
+    </div>
+
+<script>
+    const domain = "Student.emcc.edu";
+    // defines domain location
+    function assignEmail(){
+        let fName = document.getElementById("fName").value;
+        // Grabs user input for "fname box"
+        let lName = document.getElementById("lName").value;
+        // Grabs user input for "lname box"
+        let emailResult = fName[0]+lName+"@"+domain;
+        //Builds email address based on user input
+        let emailResultBox = document.getElementById("emailResultBox");
+        // grabbing html div
+        emailResultBox.innerHTML = "Here is your email address: "+emailResult;
+        // returns an email address based on input
+    }
+    
+    function checkEmail(){
+        let emailAddress = document.getElementById("emailAddress").value;
+        // grabbing emailaddress value
+        let emailValidBox = document.getElementById ("emailValidBox");
+        //  grabbiing email validbox value
+        let validEmail = true;
+        // the value = true
+        let atSymbol = emailAddress.indexOf("@")
+        // Checking for @ symbol in emailAdress value
+        let domainCheck = emailAddress.indexOf("emcc.edu")
+        // Checking for correct domain name
+        console.log(atSymbol, domainCheck);
+        // Returning variables for atSymbol, domainCheck
+
+        if (atSymbol < 3){
+            validEmail = false;
+        }
+        // Email cannot be shorter than 3 characters, first initial, last initial
+        if (domainCheck < 8){
+            validEmail = false;
+        }
+        // Domain cannot be shorter than 8 characters "emcc.edu"
+
+        if (validEmail == false){
+        
+            emailValidBox.innerHTML = emailAdress + " is Not a valid EMCC email adress";
+            // Return not valid message to user 
+        } else {
+            // Return valid confirmation to user
+            emailValidBox.innerHTML -emailAddress + " is a valid EMCC email address";
+        }
+    }
+    function humanCheck(){
+        let humanCheckBox = document.getElementById("humanCheckBox");
+        let mathCheck = document.getElementById("humanCheck").value;
+        let result = 5*6-1;
+        if (result != mathCheck){
+            humanCheckBox.innerHTML ="You have failed the test. <br/> You are either not a human or a human who is bad at math";
+        }
+        else {
+            humanCheckBox.innerHTML = "Congratulations, you have passed the test <br/> you are either a human or a smart robot"
+
+          }
+
+        }
+
+    </script>
+    <!-- <script src="emailValidator.js</script" -->
+</body>
+</html>
