@@ -466,7 +466,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 75% !important;
   height: auto;
 }
 
@@ -10101,6 +10101,17 @@ h3 {
     font-size: 1.5rem;
   }
 }
+
+.ProjectTitle {
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  text-align: center !important;
+}
+
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -10108,6 +10119,7 @@ h3 {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  text-align: center !important;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
