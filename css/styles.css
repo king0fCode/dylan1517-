@@ -1220,3 +1220,7 @@ button.bg-secondary:hover {
 .copyright {
   background-color: #1a252f;
 }
+
+.spacing-custom {
+  padding: 0px 50px !important;
+}
