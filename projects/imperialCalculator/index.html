@@ -35,7 +35,7 @@ Give users the ability to enter the Imperial OR Metric values and calculate appr
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
-   <link href="../../css/styles.css" rel="stylesheet" />
+    <link href="../../css/styles.css" rel="stylesheet" />
     <title>Imperial to Metric Conversion Calculator</title>
     <style>
         .calcBox {
@@ -53,10 +53,10 @@ Give users the ability to enter the Imperial OR Metric values and calculate appr
 
     <!-- Masthead-->
     <header class="masthead bg-primary text-white text-center">
-        <div class="container d-flex align-items-center flex-column">
+        <div class="container  align-items-center ">
             <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="" />
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading text-uppercase mb-0">Email Validator</h1>
+            <h1 class="masthead-heading text-uppercase mb-0">Imperial Calculator</h1>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
@@ -64,50 +64,65 @@ Give users the ability to enter the Imperial OR Metric values and calculate appr
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading font-weight-light mb-0">Simple program to validate Emails</p>
+            <p class="masthead-subheading font-weight-light mb-0">Imperial to Metric Calculators
+            </p>
         </div>
     </header>
-    <h1>Imperial to Metric Calculators</h1>
 
-    <hr />
-    <h3>Inches to Centimeters</h3>
-    <div class="row">
-        Inches
-        <input type="number" id="inches"> =>
-        <div id="centimeters" class="calcBox"></div>
-        <button onclick="inToCentimeters();" id="inToCm">Calculate</button>
-    </div>
 
-    <h3>Feet to Meters</h3>
-    Inches
-    <input type="number" id="feet"> =>
-    <div id="meters" class="calcBox"></div>
-    <button onclick="inToMeters();" id="ftToM">Calculate</button>
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
 
-    <hr />
-    <h3>Farenheit to Celsius</h3>
-    Farenheit
-    <input type="number" id="farenheit"> =>
-    <div id="celsius" class="calcBox"></div>
-    <button onclick="inToCelsius();" id="fToC">Calculate</button>
+            <div class="row">
+                <div class="col">
+                    <h1>Imperial to Metric Calculators</h1>
 
-    <hr />
-    <h3>Cup to Liter</h3>
-    Cups
-    <input type="number" id="cup"> =>
-    <div id="liter" class="calcBox"></div>
-    <button onclick="inToLiters()" id="cToL">Calculate</button>
+                    <hr />
+                    <h3>Inches to Centimeters</h3>
+                    <div class="row">
+                        Inches
+                        <input type="number" id="inches"> =>
+                        <div id="centimeters" class="calcBox"></div>
+                        <button onclick="inToCentimeters();" id="inToCm">Calculate</button>
+                    </div>
 
-    <hr />
-    <h3>USD to CAD</h3>
-    USD
-    <input type="number" id="usd">
-    +> <div id="canadian" class="calcBox"></div>
-    <button onclick="intoCad()" id="uToC">Calculate</button>
+                    <h3>Feet to Meters</h3>
+                    Inches
+                    <input type="number" id="feet"> =>
+                    <div id="meters" class="calcBox"></div>
+                    <button onclick="inToMeters();" id="ftToM">Calculate</button>
+
+                    <hr />
+                    <h3>Farenheit to Celsius</h3>
+                    Farenheit
+                    <input type="number" id="farenheit"> =>
+                    <div id="celsius" class="calcBox"></div>
+                    <button onclick="inToCelsius();" id="fToC">Calculate</button>
+
+                    <hr />
+                    <h3>Cup to Liter</h3>
+                    Cups
+                    <input type="number" id="cup"> =>
+                    <div id="liter" class="calcBox"></div>
+                    <button onclick="inToLiters()" id="cToL">Calculate</button>
+
+                    <hr />
+                    <h3>USD to CAD</h3>
+                    USD
+                    <input type="number" id="usd">
+                    +> <div id="canadian" class="calcBox"></div>
+                    <button onclick="intoCad()" id="uToC">Calculate</button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 
     <!-- follow the above pattern to create the html needed for a USD to CAD conversion -->
     <!-- Footer-->
- 
+
     <div data-include="footer"></div>
 
 

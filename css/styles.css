@@ -386,7 +386,7 @@ button.bg-primary:focus{
 .d-block {
   display: block !important;
 }
-.d-flex {
+. {
   display: flex !important;
 }
 @media (min-width: 992px) {
@@ -394,7 +394,7 @@ button.bg-primary:focus{
     display: none !important;
   }
 }
-.flex-column {
+. {
   flex-direction: column !important;
 }
 .justify-content-center {
@@ -961,7 +961,7 @@ button.bg-secondary:hover {
 .d-block {
   display: block !important;
 }
-.d-flex {
+. {
   display: flex !important;
 }
 @media (min-width: 992px) {
@@ -969,7 +969,7 @@ button.bg-secondary:hover {
     display: none !important;
   }
 }
-.flex-column {
+. {
   flex-direction: column !important;
 }
 .align-items-center {

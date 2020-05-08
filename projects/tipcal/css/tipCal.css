@@ -6298,7 +6298,7 @@ button.bg-dark:focus {
   display: table-cell !important;
 }
 
-.d-flex {
+. {
   display: flex !important;
 }
 
@@ -6372,7 +6372,7 @@ button.bg-dark:focus {
     display: table-cell !important;
   }
 
-  .d-md-flex {
+  .d-m {
     display: flex !important;
   }
 
@@ -6536,7 +6536,7 @@ button.bg-dark:focus {
   flex-direction: row !important;
 }
 
-.flex-column {
+. {
   flex-direction: column !important;
 }
 
@@ -6544,7 +6544,7 @@ button.bg-dark:focus {
   flex-direction: row-reverse !important;
 }
 
-.flex-column-reverse {
+.-reverse {
   flex-direction: column-reverse !important;
 }
 

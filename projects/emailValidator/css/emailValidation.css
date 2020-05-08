@@ -374,7 +374,7 @@ button.bg-primary:focus {
   display: block !important;
 }
 
-.d-flex {
+. {
   display: flex !important;
 }
 @media (min-width: 992px) {
@@ -383,7 +383,7 @@ button.bg-primary:focus {
   }
 }
 
-.flex-column {
+. {
   flex-direction: column !important;
 }
 

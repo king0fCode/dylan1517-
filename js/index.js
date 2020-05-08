@@ -12,6 +12,7 @@ $(function () {
 $(window).on('load', function () {
   // Handler for .load() called.
   //assign nav
+  console.log(window.location.pathname);
   let RootPath = 'https://localhost/dylan1517/'
   let navBar = document.getElementById('navbarResponsive')
 
