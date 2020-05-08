@@ -116,7 +116,6 @@ button {
 }
 [type='button'],
 button {
-  -webkit-appearance: button;
 }
 [type='button']:not(:disabled),
 button:not(:disabled) {
@@ -260,7 +259,6 @@ small {
   -ms-user-select: none;
   user-select: none;
   background-color: transparent;
-  border: 0.125rem solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -278,11 +276,7 @@ small {
   background-color: #1abc9c;
   border-color: #1abc9c;
 }
-.btn-primary:hover {
-  color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
-}
+
 .btn-primary:focus {
   color: #fff;
   background-color: #159a80;
@@ -506,7 +500,6 @@ a.text-secondary:hover {
   max-width: 7rem;
   height: 0.25rem;
   background-color: #000000;
-  border-radius: 1rem;
   border-color: #000000 !important;
 }
 .divider-custom .divider-custom-line:first-child {
@@ -592,13 +585,10 @@ a.text-secondary:hover {
   position: absolute;
   top: 0;
   left: 0;
-  transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
 }
-.portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
-}
+
 .portfolio
   .portfolio-item
   .portfolio-item-caption
@@ -701,7 +691,6 @@ button {
 }
 [type='button'],
 button {
-  -webkit-appearance: button;
 }
 [type='button']:not(:disabled),
 button:not(:disabled) {
@@ -826,7 +815,6 @@ small {
   -ms-user-select: none;
   user-select: none;
   background-color: transparent;
-  border: 0.125rem solid transparent;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -836,15 +824,7 @@ small {
     transition: none;
   }
 }
-.btn:hover {
-  color: #212529;
-  text-decoration: none;
-}
-.btn.focus,
-.btn:focus {
-  outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(26, 188, 156, 0.25);
-}
+
 .btn:disabled {
   opacity: 0.65;
 }
@@ -852,11 +832,7 @@ small {
   color: #f8f9fa;
   border-color: #f8f9fa;
 }
-.btn-outline-light:hover {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
-}
+
 .btn-outline-light.focus,
 .btn-outline-light:focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
@@ -877,9 +853,7 @@ small {
   padding: 0.5rem 1rem;
 }
 .nav-link:focus,
-.nav-link:hover {
-  text-decoration: none;
-}
+
 .navbar {
   position: relative;
   display: flex;
@@ -906,9 +880,7 @@ small {
   white-space: nowrap;
 }
 .navbar-brand:focus,
-.navbar-brand:hover {
-  text-decoration: none;
-}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -930,12 +902,9 @@ small {
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 0.125rem solid transparent;
 }
 .navbar-toggler:focus,
-.navbar-toggler:hover {
-  text-decoration: none;
-}
+
 @media (max-width: 991.98px) {
   .navbar-expand-lg > .container {
     padding-right: 0;
@@ -1126,7 +1095,6 @@ button.bg-secondary:hover {
   max-width: 7rem;
   height: 0.25rem;
   background-color: #000000;
-  border-radius: 1rem;
   border-color: #000000 !important;
 }
 .divider-custom .divider-custom-line:first-child {

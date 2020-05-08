@@ -29,7 +29,8 @@ $(window).on('load', function () {
                                   <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                                           href="${RootPath}projects/todo/">To Do</a></li>
                   
-                  
+                                          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                          href="${RootPath}projects/changeConfirmation/">CHANGE CONFIRMATION</a></li>
                               </ul>`
   navBar.innerHTML = nav
 
